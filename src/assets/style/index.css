@@ -1,0 +1,73 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* In your main CSS/SCSS file */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+
+
+
+.image{
+    width: 130px;
+    height: 118px;
+    border-radius: 50%;
+    /* margin-left: 45%; */
+    display: block;
+    margin: auto;
+    
+}
+/* .header{
+    text-align: center;
+    
+    font-family: sans-serif;
+    width: 50%;
+} */
+
+.header {
+    /* line-height: 1.2; Adjust the value as needed */
+    /* margin-bottom: 10%; Adjust the value as needed */
+    margin-top: 13px;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif
+}
+.bio{
+    text-align: center;
+    margin-left: 10%;
+    
+}
+
+.container{
+    text-align: center;
+    margin-top: 15%;
+    width: 100%;
+}
+
+
+.web{
+    background-color: grey;
+    color: blue;
+    width: 11%;
+    font-size: 15px;
+}
+
+.flow{
+    background-color: grey;
+    color:red;
+    width: 11%;
+    font-size: 15px; 
+    margin-bottom:30px;
+
+}
+.btn{
+    padding: 8px;
+    font-size: 15px;
+    color: white;
+    background-color: blue;
+    margin-top: 20px;
+    border-radius: 12px;
+}
